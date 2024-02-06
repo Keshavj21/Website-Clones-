@@ -1,0 +1,199 @@
+.header {
+  background-color: #131921;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+}
+
+.logo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-self: center;
+  display: flex;
+  height: 50px;
+  width: 100px;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.address {
+  color: white;
+  width: 85px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-right: 15px;
+
+}
+.add1{
+  color: #CCCCCC;
+  font-size: 0.85rem;
+  margin: 0;
+  margin-left: 16px;
+}
+.add2 {
+  font-size:1rem;
+  display: flex;
+  margin: 0;
+  margin-left: 3px;
+  display: flex;
+}
+
+
+.search-bar {  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  width: 60%;
+}
+
+.filter {
+  padding: 4px;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.searchbox {
+  padding: 4px; 
+  width: 100%;
+  border: none;
+  color: #0F1111;
+  width: 100%;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 151, 19);
+  height: 40px;
+  width: 45px;
+  font-size: 20px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+
+.search-icon i {
+  margin-left: 12px;
+}
+
+.language {
+  display: flex;
+  height: 40px;
+  width: 60px;
+  color: white;
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 18px;
+  margin-right: 0;
+}
+
+.flag {
+  display: flex;
+  background-image: url(images/united-states-flag-icon.svg);
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.icon {
+  display: flex;
+  margin-left: 5px;
+}
+
+.signin {
+  margin-left: 15px;
+  height: 50px;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.signin-text {
+  height: 40px;
+  margin-top: 10px;
+  color: #FFFFFF;
+}
+
+.signin-text i {
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+#sign-in {
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 5px;
+}
+
+#acc {
+  padding-left: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cart-sec {
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 85px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.cart-icon {
+  font-size: 26px
+}
+
+#cart-text {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.nav-bar {
+  color: white;
+  background-color: #232f3e;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-bar p {
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-bar i{
+  margin-left: 5px;
+}
+
+.nav-bar p:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.signin:hover, 
+.cart-sec:hover,
+.language:hover,
+.address:hover,
+.nav-options:hover
+.logo:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}

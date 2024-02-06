@@ -1,0 +1,49 @@
+.hero-sec {
+  background-color: #404eed;
+  background-image: url(images/background\ header.svg);
+  height: 620px;
+  width: 100%;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  background-color: #404eed;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+
+.logo {
+  height: 35px;
+  width: 125px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header-content {
+  display: flex;
+  height: 25px;
+  width: 800px;
+  justify-content: space-evenly;
+}
+
+.menu {
+  color: white;
+  font-weight: 600;
+}
+
+.menu-btn {
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  height: 40px;
+  width: 115px;
+
+}

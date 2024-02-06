@@ -1,0 +1,60 @@
+.thumbnail {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.thumbnail-row{
+  position: relative;
+}
+
+.vid-time{
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+  padding: 4px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  border-radius: 4px;
+}
+
+.vid-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 30px;
+}
+
+@media (max-width: 750px) {
+  .vid-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.vid-info{
+  display: grid;
+  grid-template-columns: 75px 1fr;
+}
+
+
+.profile{
+  width: 50px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+
+.vid-title{
+  line-height: 5px;
+}
+
+.vid-author{
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.vid-stats{
+  margin-top: 2px;
+  font-weight: 300;
+}

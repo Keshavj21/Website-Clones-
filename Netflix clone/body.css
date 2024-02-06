@@ -1,0 +1,160 @@
+.sign-page {
+  align-self: center;
+  vertical-align: middle;
+  height: auto;
+  position: absolute;
+  bottom: 140px;
+  left: 350px;
+  max-width: 800px;
+}
+
+image {
+  height: fit-content;
+}
+
+.p1 {
+  font-size: 70px;
+  margin: 10px;
+}
+
+.p2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.p3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  box-shadow: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 60px;
+}
+
+
+.get-started-button {
+  cursor: pointer;
+  margin-left: -2px;
+  background-color: red;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.temp {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 50px;
+  height: 500px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 150px;
+  padding-bottom: 0;
+}
+
+.ad1 {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+#ad-left {
+  padding-top: 50px;
+  padding-right: 0;
+  margin-right: 0;
+  padding-left: 150px;
+}
+
+#ad-right {
+  padding-top: 50px;
+  margin-left: 0;
+}
+
+.ad-img-left {
+  padding-left: 150px;
+}
+
+.featureimg {
+  height: 400px;
+}
+
+.f1 {
+  margin-top: 100px;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.f2 {
+  font-size: 20px;
+  margin-top: 0;
+  padding-right: 20px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+
+.faq {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  width: 820px;
+  padding-left: 150px;
+}
+
+#h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.question {
+  margin-bottom: 2px;
+  margin-top: 0;
+  font-size: 25px;
+}
+.des {
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.question,
+.des {
+  background-color: #303030;
+  padding: 15px;
+
+}
+
+.membership {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 18px;
+}
+
+.signup {
+  color: #fff;
+  width: 400px;
+  background: transparent;
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-right: 8px;
+}

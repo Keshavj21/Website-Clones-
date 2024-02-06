@@ -1,0 +1,37 @@
+.final-section {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 80px;
+}
+
+.number {
+  margin-bottom: 45px;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.subsections {
+  display: grid;
+
+}
+
+#second-btn,
+.netflix-india
+{
+  margin-left: 150px;
+}
+#second-btn {
+margin-top: 45px;
+}
+
+.netflix-india {
+  margin-top: 15px;
+}
+
+.faq-points {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
